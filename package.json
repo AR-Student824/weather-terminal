@@ -1,15 +1,28 @@
 {
- "name": "weather69420",
- "version": "1.0.0",
- "description": "A wrapper for weather.ar-dev.cf to view weather information via the terminal.",
- "main": "bin/index.js",
- "scripts": {
-   "test": "echo \"Error: no test specified\" && exit 1"
- },
- "keywords": [],
- "author": "arcodez",
- "license": "MIT",
- "bin": {
-   "hello": "./bin/index.js"
- }
+  "name": "weather69420",
+  "version": "1.0.0",
+  "description": "A wrapper for weather.ar-dev.cf to view weather information via the terminal.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "arcodez",
+  "license": "MIT",
+  "bin": {
+    "weather": "bin/index.js"
+  },
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AR-Student824/weather-terminal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AR-Student824/weather-terminal/issues"
+  },
+  "homepage": "https://github.com/AR-Student824/weather-terminal#readme"
 }
