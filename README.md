@@ -1,6 +1,8 @@
 # weather69420 terminal edition 
 A wrapper for weather.ar-dev.cf for viewing weather information in the terminal, which is minimal, and predicts your location via your IP and displays weather for that location.
 
+# Available on Yarn / NPM :)
+
 # Usage
 `$ npm i weather69420`
 
