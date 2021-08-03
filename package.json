@@ -1,0 +1,15 @@
+{
+ "name": "weather69420",
+ "version": "1.0.0",
+ "description": "A wrapper for weather.ar-dev.cf to view weather information via the terminal.",
+ "main": "bin/index.js",
+ "scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "keywords": [],
+ "author": "arcodez",
+ "license": "MIT",
+ "bin": {
+   "hello": "./bin/index.js"
+ }
+}
