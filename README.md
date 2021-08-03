@@ -1,4 +1,4 @@
-# weather-terminal
+# weather69420 terminal edition 
 A wrapper for weather.ar-dev.cf for viewing weather information in the terminal, which is minimal, and predicts your location via your IP and displays weather for that location.
 
 # Usage
