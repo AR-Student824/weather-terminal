@@ -1,6 +1,6 @@
 {
   "name": "weather69420",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper for weather.ar-dev.cf to view weather information via the terminal.",
   "main": "bin/index.js",
   "scripts": {
@@ -13,7 +13,8 @@
     "weather": "bin/index.js"
   },
   "dependencies": {
-    "boxen": "^4.0.0",
+    "axios": "^0.21.1",
+    "boxen": "^4.2.0",
     "chalk": "^2.4.2"
   },
   "devDependencies": {},
