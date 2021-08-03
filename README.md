@@ -4,9 +4,9 @@ A wrapper for weather.ar-dev.cf for viewing weather information in the terminal,
 # Available on Yarn / NPM :)
 
 # Usage
-`$ npm i weather69420`
+`$ npm i -g weather69420` OR `$ yarn add -g weather69420` - Install the package globally 
 
-`$ weather`
+`$ weather` - Run the weather command to get weather information
 
 # More options will be available soon
 This is just me making this package for 1 project a day for a week, and is low effort, and I plan to add more stuff to this soon.
