@@ -3,6 +3,7 @@ A wrapper for weather.ar-dev.cf for viewing weather information in the terminal,
 
 # Usage
 `$ npm i weather69420`
+
 `$ weather`
 
 # More options will be available soon
