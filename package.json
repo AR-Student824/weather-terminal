@@ -1,7 +1,7 @@
 {
-  "name": "weather69420",
+  "name": "breezeweather",
   "version": "1.0.1",
-  "description": "A wrapper for weather.ar-dev.cf to view weather information via the terminal.",
+  "description": "A wrapper for Breeze for viewing weather via the terminal while programming!",
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,8 @@
   "author": "arcodez",
   "license": "MIT",
   "bin": {
-    "weather": "bin/index.js"
+    "weather": "bin/index.js",
+    "breeze": "bin/index.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
