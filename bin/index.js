@@ -3,6 +3,10 @@
 const chalk = require("chalk");
 const boxen = require("boxen");
 const axios = require("axios");
+const pakag = require('../package.json');
+if (pakag.name == "weather69420") {
+    console.log(chalk.red.bold(`[Deprecation] This package is officially deprecated in favor of the new package, breezeweather. If the Breeze API changes, this package will break. Install the new one with the command below:\n\nnpm install -g breezeweather && npm uninstall -g weather69420`))
+}
 console.info('[Loading] Please wait...')
 axios.get('https://weather.ar-dev.cf/api/json').then(res => {
 const celcius = res.data.c
@@ -27,5 +31,7 @@ console.log(boxen(`${chalk.blue.bold(celcius.main.temp + '°C / ' + farenheight.
     backgroundColor: "white",
     allign: "center"
 }))
-//console.log(res.data)
+if (pakag.name == "weather69420") {
+    console.log(chalk.red.bold(`[Deprecation] This package is officially deprecated in favor of the new package, breezeweather. If the Breeze API changes, this package will break. Install the new one with the command below:\n\nnpm install -g breezeweather && npm uninstall -g weather69420`))
+}
 })
